@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.administrator.getpostserialarduino.MainActivity">
 
-   <FrameLayout
-       android:id="@+id/contenMainFragment"
+   <Button
+       android:onClick="clickTestReceiveByArduino"
+       android:text="Receive by Arduino"
        android:layout_width="match_parent"
-       android:layout_height="match_parent"/>
+       android:layout_height="wrap_content" />
 
 
 
+   <!--<FrameLayout-->
+       <!--android:id="@+id/contenMainFragment"-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="match_parent"/>-->
 
 
 
-
-
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
