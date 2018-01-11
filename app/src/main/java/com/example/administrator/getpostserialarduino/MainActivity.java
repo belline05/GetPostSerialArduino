@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     private void receiveArduino() {
         try {
             physicaloid = new Physicaloid(MainActivity.this);
